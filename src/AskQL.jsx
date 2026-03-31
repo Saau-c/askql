@@ -397,10 +397,10 @@ export default function AskQL() {
       {/* ── Header ──────────────────────────────────────────────────────────── */}
       <div style={{ background:T.teal800, padding:"14px 22px", borderRadius:"0 0 18px 18px", marginBottom:16, display:"flex", alignItems:"center", justifyContent:"space-between", flexWrap:"wrap", gap:10 }}>
         <div style={{ display:"flex", alignItems:"center", gap:12 }}>
-          <div style={{ width:38, height:38, borderRadius:10, background:T.teal400, display:"flex", alignItems:"center", justifyContent:"center", fontSize:14, fontWeight:800, color:T.white, letterSpacing:-1 }}>AQ</div>
+          <img src="/Image/icon.png" alt="AskQL Logo" style={{ width: 38, height: 38,borderRadius: 10,objectFit: "cover"}}/>
           <div>
             <div style={{ fontSize:22, fontWeight:700, color:T.white, letterSpacing:-0.5 }}>AskQL</div>
-            <div style={{ fontSize:11, color:T.teal100, marginTop:1 }}>Natural language → SQL · KaggleDBQA</div>
+            <div style={{ fontSize:11, color:T.teal100, marginTop:1 }}>Natural language → SQL · Dataset Used: KaggleDBQA</div>
           </div>
         </div>
         <div style={{ display:"flex", alignItems:"center", gap:8, background:"rgba(255,255,255,0.12)", border:"1px solid rgba(255,255,255,0.2)", borderRadius:10, padding:"6px 12px" }}>
@@ -502,9 +502,9 @@ export default function AskQL() {
               border:"none", flexShrink:0, transition:"background 0.15s",
             }}>Run</button>
           </div>
-          <div style={{ fontSize:11, color:T.gray500, textAlign:"center", marginTop:6 }}>
-            Enter to run · Shift+Enter for newline · SELECT only
-          </div>
+          <div style={{ fontSize:12, color:T.gray500, textAlign:"center", marginTop:6 }}>
+            Built by <strong>Sakshi Chaudhari</strong>
+            </div>
         </div>
       )}
     </div>
